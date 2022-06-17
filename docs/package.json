@@ -1,0 +1,20 @@
+{
+  "name": "better-strapi-docs",
+  "version": "0.0.1",
+  "description": "Better Strapi Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Cameron",
+    "email": "support@exclnetworks.com"
+  },
+  "repository": "better-strapi-docs/Better Strapi Docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-mermaidjs": "^1.9.1"
+  }
+}
