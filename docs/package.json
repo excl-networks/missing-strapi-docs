@@ -16,5 +16,8 @@
   "devDependencies": {
     "vuepress": "^1.5.3",
     "vuepress-plugin-mermaidjs": "^1.9.1"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
   }
 }

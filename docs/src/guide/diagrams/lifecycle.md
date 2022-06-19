@@ -62,3 +62,11 @@ Middlewares allow you to look at any incoming request and modify the `ctx` paylo
 # Controllers
 
 Controllers are code that always get executed when a request is made and contain the core logic of any request. The core controllers tend to contain the logic to grab data from the database.
+
+# Destroy
+
+Code executed when Strapi is stopping
+
+# Routes
+
+The routes in strapi is what determines how Koa will route each request this is where you attach policies and middlewares

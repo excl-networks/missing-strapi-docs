@@ -44,8 +44,12 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            ['plugin-guides/middleware', 'Middlewares'],
-            ['plugin-guides/passing-data', 'Pass Data From Server to Admin']
+            ['plugin-guides/create-plugin', 'Creating A Plugin'],
+            ['plugin-guides/plugin-structure', 'Plugin Structure & Meaning'],
+            ['plugin-guides/storing-data', 'CRUDing Data'],
+            ['plugin-guides/middleware', 'Global Plugin Middlewares'],
+            ['plugin-guides/passing-data', 'Pass Data From Server to Admin'],
+            ['plugin-guides/publish-plugin', 'Publishing Your Plugin']
           ]
         },
         {
@@ -53,6 +57,13 @@ module.exports = {
           collapsable: false,
           children:[
               ['diagrams/lifecycle', "Lifecycle"]
+          ]
+        },
+        {
+          title: "Utils",
+          collapsable: false,
+          children:[
+            ['utils/helpful-cli', "Helpful CLI Commands"]
           ]
         }
       ],
@@ -70,6 +81,7 @@ module.exports = {
       {
         securityLevel: 'loose'
       }
-    ]
+    ],
+    ['vuepress-plugin-code-copy', true]
   ]
 }

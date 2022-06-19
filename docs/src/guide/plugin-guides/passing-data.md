@@ -1,5 +1,7 @@
 # Passing Data Between Server and Admin
 
+[Real Life Example](https://github.com/excl-networks/strapi-plugin-generate-schema/tree/master/admin)
+
 When developing a plugin you most likely want to pass data from the `/server` to `/admin` as within `/server` you have access to the Strapi object and can do db queries whereas in `/admin` you can't.
 
 We can do this using the admin's axios instance 
@@ -15,9 +17,10 @@ What you need to understand is Strapi itself is headless, the admin panel is com
 ```mermaid
 graph LR
     A{Server} -->|Axios Instance| B{Admin Panel}
+    B --> A
 ```
 
-First you need to make and Admin Route
+First you need to make an Admin Route
 
 This is just like a normal route that you would have for any controller but you have the `type: 'admin'` which hides it from the general router and allows you access it from the admin panel
 
