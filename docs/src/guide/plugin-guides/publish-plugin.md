@@ -28,6 +28,7 @@ Now add your remote, files and push
 ```bash
 git remote add origin https://github.com/username/repo-name
 git add .
+git commit -m "your message"
 git push origin master
 ```
 
