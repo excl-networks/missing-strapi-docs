@@ -49,7 +49,8 @@ module.exports = {
             ['plugin-guides/storing-data', 'CRUDing Data'],
             ['plugin-guides/middleware', 'Global Plugin Middlewares'],
             ['plugin-guides/passing-data', 'Pass Data From Server to Admin'],
-            ['plugin-guides/publish-plugin', 'Publishing Your Plugin']
+            ['plugin-guides/publish-plugin', 'Publishing Your Plugin'],
+            ['plugin-guides/impossible', 'What you can\'t do with a plugin']
           ]
         },
         {
@@ -82,6 +83,7 @@ module.exports = {
         securityLevel: 'loose'
       }
     ],
-    ['vuepress-plugin-code-copy', true]
+    ['vuepress-plugin-code-copy', true],
+    'vuepress-plugin-smooth-scroll'
   ]
 }
