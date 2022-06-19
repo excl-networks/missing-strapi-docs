@@ -42,10 +42,12 @@ flowchart TB
 ```
 
 # Register
+see: [Register](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/configurations/optional/functions.html)
 
 This is the very first thing that happens when a strapi app is starting. This happens _before_ any setup process and you wont have any access to db, routes, policies etc.
 
 # Bootstrap
+see: [Bootstrap](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/configurations/optional/functions.html)
 
 This happens before the server boots but after Strapi has setup meaning you have access to anything that you would usually have in the `Strapi` object
 
@@ -64,6 +66,7 @@ Middlewares allow you to look at any incoming request and modify the `ctx` paylo
 Controllers are code that always get executed when a request is made and contain the core logic of any request. The core controllers tend to contain the logic to grab data from the database.
 
 # Destroy
+see: [Destroy](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/configurations/optional/functions.html)
 
 Code executed when Strapi is stopping
 
