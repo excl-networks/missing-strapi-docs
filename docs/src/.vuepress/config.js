@@ -64,7 +64,8 @@ module.exports = {
           title: "Utils",
           collapsable: false,
           children:[
-            ['utils/helpful-cli', "Helpful CLI Commands"]
+            ['utils/helpful-cli', "Helpful CLI Commands"],
+            ['utils/publish-programmatically', "Un/Publish Programmatically"]
           ]
         }
       ],
