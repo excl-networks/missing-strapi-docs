@@ -48,6 +48,7 @@ await strapi.entityService.update('api::blog.blog', 1, {
 
 ```js
 await strapi.db.query('api::blog.blog').update({
+  where: { id: 1 },
   data: {
       publishedAt: new Date()
   },
