@@ -19,7 +19,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['script', {id: "scriptImporter"}, `
+    ['script', { id: "scriptImporter" }, `
           var callback = function () {
       alert('A callback was triggered');
   };
@@ -56,16 +56,17 @@ module.exports = {
         {
           title: "Diagrams",
           collapsable: false,
-          children:[
-              ['diagrams/lifecycle', "Lifecycle"]
+          children: [
+            ['diagrams/lifecycle', "Lifecycle"]
           ]
         },
         {
           title: "Utils",
           collapsable: false,
-          children:[
+          children: [
             ['utils/helpful-cli', "Helpful CLI Commands"],
-            ['utils/publish-programmatically', "Un/Publish Programmatically"]
+            ['utils/publish-programmatically', "Un/Publish Programmatically"],
+            ['utils/telemetry', "What Telemetry Strapi Collects"]
           ]
         }
       ],
